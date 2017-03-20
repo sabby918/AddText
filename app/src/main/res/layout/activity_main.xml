@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.sarah.fragment.MainActivity">
+
+    <fragment
+        android:id="@+id/fragment2"
+        android:name="com.example.sarah.fragment.TextFragment"
+        android:layout_width="296dp"
+        android:layout_height="200dp"
+        tools:layout="@layout/text_fragment"
+        tools:layout_editor_absoluteX="42dp"
+        tools:layout_editor_absoluteY="16dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="14dp" />
+
+    <fragment
+        android:id="@+id/fragment3"
+        android:name="com.example.sarah.fragment.PictureFragment"
+        android:layout_width="320dp"
+        android:layout_height="320dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="21dp"
+        tools:layout="@layout/picture_fragment"
+        tools:layout_editor_absoluteX="42dp"
+        tools:layout_editor_absoluteY="195dp" />
+</RelativeLayout>
